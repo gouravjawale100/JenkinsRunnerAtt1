@@ -13,12 +13,11 @@ pipeline {
         
     stage('checkout second repo') {
             steps {
-                steps {
+                
                 dir('SCM2')
                 {
                 git 'https://github.com/gouravjawale100/ATT18NovBDDProject'
                 }
-            }
         }
         }
         
